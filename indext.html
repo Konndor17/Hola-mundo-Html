@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola Mundo - Hacker Style</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #0F0;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .terminal {
+      background-color: #000;
+      border: 2px solid #0F0;
+      border-radius: 5px;
+      padding: 20px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-left: 5px;
+    }
+
+    .close {
+      background-color: #F00;
+    }
+
+    .minimize {
+      background-color: #FF0;
+    }
+
+    .maximize {
+      background-color: #0F0;
+    }
+
+    .content {
+      margin-top: 10px;
+    }
+
+    .line {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <div class="header">
+      <div class="button close"></div>
+      <div class="button minimize"></div>
+      <div class="button maximize"></div>
+    </div>
+    <div class="content">
+      <p class="line">Accediendo al sistema...</p>
+      <p class="line">Bienvenido, usuario_001</p>
+      <p class="line">Iniciando sesión...</p>
+      <p class="line">Hola Mundo!</p>
+    </div>
+  </div>
+</body>
+</html>
